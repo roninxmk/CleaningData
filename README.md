@@ -18,7 +18,7 @@ The student "should create one R script called run_analysis.R that does the foll
 
 In order to make the script work, you will need to:
 
-1. Download this [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+1. Download this [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. Unzip the file under your preferred workspace folder. The script respects the directory structure as it is. There is no need to move files if you unzipped the file above under your workspace folder.
 3. Be sure that you have the following R libraries installed:
 * readr
