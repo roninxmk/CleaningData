@@ -25,6 +25,7 @@ In order to make the script work, you will need to:
 * tidyr
 * dplyr
 * reshape2
+
 (Note: Remember, the command to install packages is *install.packages("name of library")*.
 
 

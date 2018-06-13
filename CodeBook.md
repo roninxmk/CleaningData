@@ -14,27 +14,27 @@ The original dataset has been randomly partitioned into two sets, where 70% of t
 
 The files utilized in this project were:
 
-    * 'README.txt'
+    - 'README.txt'
 
-    * 'features_info.txt'
+    - 'features_info.txt'
 
-    * 'features.txt'
+    - 'features.txt'
 
-    * 'activity_labels.txt'
+    - 'activity_labels.txt'
 
-    * 'train/X_train.txt'
+    - 'train/X_train.txt'
 
-	* 'train/y_train.txt'
+    - 'train/y_train.txt'
 
-    * 'train/subject_train.txt'
+    - 'train/subject_train.txt'
 
-    * 'test/X_test.txt': Test set.
+    - 'test/X_test.txt': Test set.
 
-    * 'test/y_test.txt': Test labels.
+    - 'test/y_test.txt': Test labels.
 
-    * 'test/subject_test.txt'	
+    - 'test/subject_test.txt'	
 
-A more detailed description of the data can be found in the 
+A more detailed description of the data can be found in the text files mentioned above.
 
 ### Merged data (merged_set)
  
@@ -54,10 +54,10 @@ The **newtidy_set** contains independent tidy data set with the average of each 
 
 Some header names were changed/corrected to make more clean and clear view.
 
-    * *fBodyBody<string>*: any name containing *fBodyBody<string>* was renamed to *fBody<string>*.
-	* *angle(tBodyAccJerkMean),gravityMean)*: this was corrected to *angle(tBodyAccJerkMean,gravityMean)*.
-	* *()*: any name containing *()* had them removed.
-	* *bandsEnergy*: all *bandsEnergy* fields had their respective axis added to its name. 
+    - fBodyBody<string>: any name containing fBodyBody<string> was renamed to fBody<string>.
+    - angle(tBodyAccJerkMean),gravityMean): this was corrected to angle(tBodyAccJerkMean,gravityMean).
+    - (): any name containing '()' had them removed.
+    - bandsEnergy: all bandsEnergy fields had their respective axis added to its name. 
 	
 # Acknowledgements
 The dataset is described at [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and it was provided by reference [1]. 
