@@ -115,6 +115,8 @@ names(merged_set)[489:502]<-c(lapply(feat_head[489:502], function(txt) {paste(gs
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the 
 ## average of each variable for each activity and each subject.
-#melted_set <- melt(meanstd_set, id.vars=c("activity","subject"))
 melted_set <- melt(meanstd_set, id.vars=c("activity","subject"))
 newtidy_set <- dcast(melted_set, activity+subject ~ variable, mean)
+
+# Writing data to file as requested in the assignment
+write.table(newtidy_set, file = "tidydata.txt",row.name=FALSE)
