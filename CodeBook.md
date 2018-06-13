@@ -14,25 +14,25 @@ The original dataset has been randomly partitioned into two sets, where 70% of t
 
 The files utilized in this project were:
 
-    * 'README.txt'
+    - 'README.txt'
 
-    * 'features_info.txt'
+    - 'features_info.txt'
 
-    * 'features.txt'
+    - 'features.txt'
 
-    * 'activity_labels.txt'
+    - 'activity_labels.txt'
 
-    * 'train/X_train.txt'
+    - 'train/X_train.txt'
 
-    * 'train/y_train.txt'
+    - 'train/y_train.txt'
 
-    * 'train/subject_train.txt'
+    - 'train/subject_train.txt'
 
-    * 'test/X_test.txt': Test set.
+    - 'test/X_test.txt': Test set.
 
-    * 'test/y_test.txt': Test labels.
+    - 'test/y_test.txt': Test labels.
 
-    * 'test/subject_test.txt'	
+    - 'test/subject_test.txt'	
 
 A more detailed description of the data can be found in the text files mentioned above.
 
