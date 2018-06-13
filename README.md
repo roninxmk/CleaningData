@@ -18,8 +18,8 @@ The student "should create one R script called run_analysis.R that does the foll
 
 In order to make the script work, you will need to:
 
-1. Download this [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-2. Unzip the file under your preferred workspace folder. The script respects the directory structure as it is. There is no need to move files if you unzipped the file above under your workspace folder.
+1. Download the data set [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+2. Unzip the file under your workspace folder. The script respects the directory structure as it is. There is no need to move files if you unzipped the file above under your workspace folder.
 3. Be sure that you have the following R libraries installed:
 * readr
 * tidyr
@@ -28,6 +28,8 @@ In order to make the script work, you will need to:
 
 (Note: Remember, the command to install packages is *install.packages("name of library")*.
 
+4. Copy the *run_analysis.R* script into your workspace folder.
+5. Execute *run_analysis.R* script from your workspace folder.
 
 # Acknowledgements
 The dataset is described at [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and it was provided by reference [1]. 
