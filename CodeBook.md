@@ -24,7 +24,7 @@ The files utilized in this project were:
 
     * 'train/X_train.txt'
 
-	* 'train/y_train.txt'
+    * 'train/y_train.txt'
 
     * 'train/subject_train.txt'
 
@@ -34,7 +34,7 @@ The files utilized in this project were:
 
     * 'test/subject_test.txt'	
 
-A more detailed description of the data can be found in the 
+A more detailed description of the data can be found in the text files mentioned above.
 
 ### Merged data (merged_set)
  
