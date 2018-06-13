@@ -50,6 +50,8 @@ The **meanstd_set** contains only the measurements on the mean and standard devi
 
 The **newtidy_set** contains independent tidy data set with the average of each variable for each activity and each subject. It is based on the **meanstd_set**.
 
+The script outputs a file names *tidydata.txt* as a result.
+
 ## Some header names changes
 
 Some header names were changed/corrected to make more clean and clear view.
